@@ -50,5 +50,3 @@ res = cv.rectangle(img, tuple(approx[0][0]), tuple(approx[2][0]), (0,255,0),3)
 cv.imshow("Result",cv.cvtColor(res, cv.COLOR_BGR2RGB))
 
 cv.waitKey(0)
-#
-# cv.waitKey(0)
